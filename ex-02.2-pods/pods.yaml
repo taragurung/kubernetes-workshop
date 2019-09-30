@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mynginx
+  namespace: tara
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+
